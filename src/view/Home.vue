@@ -22,6 +22,10 @@ export default {
         {
           title: '3、随机粒子动画',
           link: '/random-particle'
+        },
+        {
+          title: '4、伪类',
+          link: '/pseudo-class'
         }
       ]
     }

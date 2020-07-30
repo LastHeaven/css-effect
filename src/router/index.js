@@ -23,6 +23,10 @@ export const router = createRouter({
     {
       path: '/random-particle',
       component: () => import('@/view/effect/RandomParticle')
+    },
+    {
+      path: '/pseudo-class',
+      component: () => import('@/view/effect/PseudoClass')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
