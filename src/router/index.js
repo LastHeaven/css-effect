@@ -19,6 +19,10 @@ export const router = createRouter({
     {
       path: '/text-split',
       component: () => import('@/view/effect/TextSplit')
+    },
+    {
+      path: '/random-particle',
+      component: () => import('@/view/effect/RandomParticle')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
