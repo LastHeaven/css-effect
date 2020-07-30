@@ -26,6 +26,10 @@ export default {
         {
           title: '4、伪类',
           link: '/pseudo-class'
+        },
+        {
+          title: '5、绝对定位实现多重边框',
+          link: '/multi-border'
         }
       ]
     }
