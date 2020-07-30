@@ -35,6 +35,10 @@ export const router = createRouter({
     {
       path: '/pseudo-element',
       component: () => import('@/view/effect/PseudoElement')
+    },
+    {
+      path: '/attr-text',
+      component: () => import('@/view/effect/AttrText')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

@@ -34,6 +34,10 @@ export default {
         {
           title: '6、伪元素',
           link: '/pseudo-element'
+        },
+        {
+          title: '7、attr()生成文本内容',
+          link: '/attr-text'
         }
       ]
     }
