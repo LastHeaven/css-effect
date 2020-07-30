@@ -30,6 +30,10 @@ export default {
         {
           title: '5、绝对定位实现多重边框',
           link: '/multi-border'
+        },
+        {
+          title: '6、伪元素',
+          link: '/pseudo-element'
         }
       ]
     }

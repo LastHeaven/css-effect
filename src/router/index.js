@@ -31,6 +31,10 @@ export const router = createRouter({
     {
       path: '/multi-border',
       component: () => import('@/view/effect/MultiBorder')
+    },
+    {
+      path: '/pseudo-element',
+      component: () => import('@/view/effect/PseudoElement')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
