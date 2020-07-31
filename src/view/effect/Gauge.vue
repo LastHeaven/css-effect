@@ -74,7 +74,15 @@ export default {
   }
 
   .gauge {
-    --gauge-width:90px;--gauge-value:500;--gauge-max-value:1000;--gauge-percentage:calc(var(--gauge-value) / var(--gauge-max-value) * 100%);--gauge-bg:white;--gauge-circle-color:var(--primary-color);--gauge-circle-color-lighter:var(--primary-color-lighter);--gauge-color:black;position: relative;
+    --gauge-width: 90px;
+    --gauge-value: 500;
+    --gauge-max-value: 1000;
+    --gauge-percentage: calc(var(--gauge-value) / var(--gauge-max-value) * 100%);
+    --gauge-bg: white;
+    --gauge-circle-color: var(--primary-color);
+    --gauge-circle-color-lighter: var(--primary-color-lighter);
+    --gauge-color: black;
+    position: relative;
     display: flex;
     margin: 1rem;
     justify-content: center;
@@ -82,7 +90,7 @@ export default {
     width: var(--gauge-width);
     height: var(--gauge-width);
     color: var(--gauge-color);
-    background: conic-gradient(var(--gauge-circle-color) var(--gauge-percentage),var(--gauge-circle-color-lighter) 0);
+    background: conic-gradient(var(--gauge-circle-color) var(--gauge-percentage), var(--gauge-circle-color-lighter) 0);
     border-radius: 50%;
     counter-reset: value var(--gauge-value)
   }
@@ -100,21 +108,33 @@ export default {
   }
 
   .gauge-primary {
-    --gauge-circle-color:var(--primary-color);--gauge-circle-color-lighter:var(--primary-color-lighter)}
+    --gauge-circle-color: var(--primary-color);
+    --gauge-circle-color-lighter: var(--primary-color-lighter)
+  }
 
   .gauge-secondary {
-    --gauge-circle-color:var(--secondary-color);--gauge-circle-color-lighter:var(--secondary-color-lighter)}
+    --gauge-circle-color: var(--secondary-color);
+    --gauge-circle-color-lighter: var(--secondary-color-lighter)
+  }
 
   .gauge-success {
-    --gauge-circle-color:var(--success-color);--gauge-circle-color-lighter:var(--success-color-lighter)}
+    --gauge-circle-color: var(--success-color);
+    --gauge-circle-color-lighter: var(--success-color-lighter)
+  }
 
   .gauge-info {
-    --gauge-circle-color:var(--info-color);--gauge-circle-color-lighter:var(--info-color-lighter)}
+    --gauge-circle-color: var(--info-color);
+    --gauge-circle-color-lighter: var(--info-color-lighter)
+  }
 
   .gauge-warning {
-    --gauge-circle-color:var(--warning-color);--gauge-circle-color-lighter:var(--warning-color-lighter)}
+    --gauge-circle-color: var(--warning-color);
+    --gauge-circle-color-lighter: var(--warning-color-lighter)
+  }
 
   .gauge-danger {
-    --gauge-circle-color:var(--danger-color);--gauge-circle-color-lighter:var(--danger-color-lighter)}
+    --gauge-circle-color: var(--danger-color);
+    --gauge-circle-color-lighter: var(--danger-color-lighter)
+  }
 
 </style>
