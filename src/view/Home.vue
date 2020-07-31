@@ -90,6 +90,10 @@ export default {
         {
           title: '20、conic-gradient',
           link: '/gauge'
+        },
+        {
+          title: '21、融合效果',
+          link: '/snow-scratch'
         }
       ]
     }

@@ -91,6 +91,10 @@ export const router = createRouter({
     {
       path: '/gauge',
       component: () => import('@/view/effect/Gauge')
+    },
+    {
+      path: '/snow-scratch',
+      component: () => import('@/view/effect/SnowScratch')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
