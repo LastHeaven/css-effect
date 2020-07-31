@@ -58,6 +58,10 @@ export default {
         {
           title: '12、box-shadow',
           link: '/box-shadow'
+        },
+        {
+          title: '13、内发光',
+          link: '/loading'
         }
       ]
     }

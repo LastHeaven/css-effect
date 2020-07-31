@@ -59,6 +59,10 @@ export const router = createRouter({
     {
       path: '/box-shadow',
       component: () => import('@/view/effect/BoxShadow')
+    },
+    {
+      path: '/loading',
+      component: () => import('@/view/effect/Loading')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
