@@ -62,6 +62,10 @@ export default {
         {
           title: '13、内发光',
           link: '/loading'
+        },
+        {
+          title: '14、发光文本',
+          link: '/staggered-glow-in-text'
         }
       ]
     }

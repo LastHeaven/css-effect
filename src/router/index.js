@@ -63,6 +63,10 @@ export const router = createRouter({
     {
       path: '/loading',
       component: () => import('@/view/effect/Loading')
+    },
+    {
+      path: '/staggered-glow-in-text',
+      component: () => import('@/view/effect/StaggeredGlowInText')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
