@@ -74,6 +74,10 @@ export default {
         {
           title: '16、伪3D文本',
           link: '/fake-3d-text'
+        },
+        {
+          title: '17、background-clip:text',
+          link: '/menu-hover-fill-text'
         }
       ]
     }

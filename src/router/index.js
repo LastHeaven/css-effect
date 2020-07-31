@@ -75,6 +75,10 @@ export const router = createRouter({
     {
       path: '/fake-3d-text',
       component: () => import('@/view/effect/Fake3dText')
+    },
+    {
+      path: '/menu-hover-fill-text',
+      component: () => import('@/view/effect/MenuHoverFillText')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
