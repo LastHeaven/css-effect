@@ -83,6 +83,10 @@ export const router = createRouter({
     {
       path: '/confirm-modal',
       component: () => import('@/view/effect/ConfirmModal')
+    },
+    {
+      path: '/particle-button',
+      component: () => import('@/view/effect/ParticleButton')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

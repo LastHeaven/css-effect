@@ -1,5 +1,7 @@
 <template>
-  <span v-for="(span, idx) in spans" :key="idx" :style="span.style">{{span.letter}}</span>
+  <span>
+    <span v-for="(span, idx) in spans" :key="idx" :style="span.style">{{span.letter}}</span>
+  </span>
 </template>
 
 <script>

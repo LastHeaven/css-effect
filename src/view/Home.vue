@@ -40,7 +40,7 @@ export default {
           link: '/attr-text'
         },
         {
-          title: '8、overflow障眼法',
+          title: '8、闪光按钮',
           link: '/bling-button'
         },
         {
@@ -82,6 +82,10 @@ export default {
         {
           title: '18、linear-gradient',
           link: '/confirm-modal'
+        },
+        {
+          title: '19、particle-button',
+          link: '/particle-button'
         }
       ]
     }
@@ -89,12 +93,4 @@ export default {
 }
 </script>
 
-<style scoped>
-  img {
-    width: 200px;
-  }
-
-  h1 {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-</style>
+<style></style>
