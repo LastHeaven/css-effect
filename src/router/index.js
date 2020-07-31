@@ -87,6 +87,10 @@ export const router = createRouter({
     {
       path: '/particle-button',
       component: () => import('@/view/effect/ParticleButton')
+    },
+    {
+      path: '/gauge',
+      component: () => import('@/view/effect/Gauge')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

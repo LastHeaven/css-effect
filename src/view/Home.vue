@@ -86,6 +86,10 @@ export default {
         {
           title: '19、particle-button',
           link: '/particle-button'
+        },
+        {
+          title: '20、conic-gradient',
+          link: '/gauge'
         }
       ]
     }
