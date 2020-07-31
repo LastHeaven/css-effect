@@ -54,6 +54,10 @@ export default {
         {
           title: '11、不规则的曲边形状',
           link: '/nav-tab'
+        },
+        {
+          title: '12、box-shadow',
+          link: '/box-shadow'
         }
       ]
     }

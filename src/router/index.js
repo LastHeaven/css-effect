@@ -55,6 +55,10 @@ export const router = createRouter({
     {
       path: '/nav-tab',
       component: () => import('@/view/effect/NavTab')
+    },
+    {
+      path: '/box-shadow',
+      component: () => import('@/view/effect/BoxShadow')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
