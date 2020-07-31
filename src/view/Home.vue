@@ -102,6 +102,10 @@ export default {
         {
           title: '23、mix-blend-mode',
           link: '/video-mask-text'
+        },
+        {
+          title: '24、clip-path',
+          link: '/name-card-hover-expand'
         }
       ]
     }

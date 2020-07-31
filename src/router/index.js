@@ -103,6 +103,10 @@ export const router = createRouter({
     {
       path: '/video-mask-text',
       component: () => import('@/view/effect/VideoMaskText')
+    },
+    {
+      path: '/name-card-hover-expand',
+      component: () => import('@/view/effect/NameCardHoverExpand')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
