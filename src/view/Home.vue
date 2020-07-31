@@ -42,6 +42,10 @@ export default {
         {
           title: '8、overflow障眼法',
           link: '/bling-button'
+        },
+        {
+          title: '9、自定义input',
+          link: '/custom-input'
         }
       ]
     }

@@ -43,6 +43,10 @@ export const router = createRouter({
     {
       path: '/bling-button',
       component: () => import('@/view/effect/BlingButton')
+    },
+    {
+      path: '/custom-input',
+      component: () => import('@/view/effect/CustomInput')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
