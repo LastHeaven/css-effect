@@ -46,6 +46,10 @@ export default {
         {
           title: '9、自定义input',
           link: '/custom-input'
+        },
+        {
+          title: '10、animation',
+          link: '/profile-card'
         }
       ]
     }

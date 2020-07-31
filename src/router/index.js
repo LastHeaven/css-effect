@@ -47,6 +47,10 @@ export const router = createRouter({
     {
       path: '/custom-input',
       component: () => import('@/view/effect/CustomInput')
+    },
+    {
+      path: '/profile-card',
+      component: () => import('@/view/effect/ProfileCard')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
