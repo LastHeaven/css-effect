@@ -79,6 +79,10 @@ export const router = createRouter({
     {
       path: '/menu-hover-fill-text',
       component: () => import('@/view/effect/MenuHoverFillText')
+    },
+    {
+      path: '/confirm-modal',
+      component: () => import('@/view/effect/ConfirmModal')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

@@ -78,6 +78,10 @@ export default {
         {
           title: '17、background-clip:text',
           link: '/menu-hover-fill-text'
+        },
+        {
+          title: '18、linear-gradient',
+          link: '/confirm-modal'
         }
       ]
     }
