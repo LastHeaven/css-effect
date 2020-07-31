@@ -70,6 +70,10 @@ export default {
         {
           title: '15、霓虹文本',
           link: '/neon-text'
+        },
+        {
+          title: '16、伪3D文本',
+          link: '/fake-3d-text'
         }
       ]
     }

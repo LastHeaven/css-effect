@@ -9,6 +9,10 @@ export default {
     text: {
       type: String,
       default: ''
+    },
+    duration: {
+      type: Number,
+      default: 0.05
     }
   },
   setup (props) {
@@ -17,7 +21,7 @@ export default {
     const spans = letters.map((letter, i) => {
       return {
         letter,
-        style: `animation-delay: ${i / 20}s;`
+        style: `animation-delay: ${i * props.duration}s;`
       }
     })
 

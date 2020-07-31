@@ -71,6 +71,10 @@ export const router = createRouter({
     {
       path: '/neon-text',
       component: () => import('@/view/effect/NeonText')
+    },
+    {
+      path: '/fake-3d-text',
+      component: () => import('@/view/effect/Fake3dText')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
