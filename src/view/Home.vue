@@ -66,6 +66,10 @@ export default {
         {
           title: '14、发光文本',
           link: '/staggered-glow-in-text'
+        },
+        {
+          title: '15、霓虹文本',
+          link: '/neon-text'
         }
       ]
     }

@@ -67,6 +67,10 @@ export const router = createRouter({
     {
       path: '/staggered-glow-in-text',
       component: () => import('@/view/effect/StaggeredGlowInText')
+    },
+    {
+      path: '/neon-text',
+      component: () => import('@/view/effect/NeonText')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
