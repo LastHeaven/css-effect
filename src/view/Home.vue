@@ -48,8 +48,12 @@ export default {
           link: '/custom-input'
         },
         {
-          title: '10、animation',
+          title: '10、名片',
           link: '/profile-card'
+        },
+        {
+          title: '11、不规则的曲边形状',
+          link: '/nav-tab'
         }
       ]
     }

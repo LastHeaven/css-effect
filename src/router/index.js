@@ -51,6 +51,10 @@ export const router = createRouter({
     {
       path: '/profile-card',
       component: () => import('@/view/effect/ProfileCard')
+    },
+    {
+      path: '/nav-tab',
+      component: () => import('@/view/effect/NavTab')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
