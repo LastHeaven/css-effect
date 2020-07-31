@@ -98,6 +98,10 @@ export default {
         {
           title: '22、backdrop-filter',
           link: '/frosted-glass'
+        },
+        {
+          title: '23、mix-blend-mode',
+          link: '/video-mask-text'
         }
       ]
     }

@@ -99,6 +99,10 @@ export const router = createRouter({
     {
       path: '/frosted-glass',
       component: () => import('@/view/effect/FrostedGlass')
+    },
+    {
+      path: '/video-mask-text',
+      component: () => import('@/view/effect/VideoMaskText')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
