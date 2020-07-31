@@ -107,6 +107,10 @@ export const router = createRouter({
     {
       path: '/name-card-hover-expand',
       component: () => import('@/view/effect/NameCardHoverExpand')
+    },
+    {
+      path: '/cross-bar-glitch-text',
+      component: () => import('@/view/effect/CrossBarGlitchText')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

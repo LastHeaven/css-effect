@@ -106,6 +106,10 @@ export default {
         {
           title: '24、clip-path',
           link: '/name-card-hover-expand'
+        },
+        {
+          title: '25、故障效果',
+          link: '/cross-bar-glitch-text'
         }
       ]
     }
