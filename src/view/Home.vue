@@ -110,6 +110,10 @@ export default {
         {
           title: '25、故障效果',
           link: '/cross-bar-glitch-text'
+        },
+        {
+          title: '26、镂空效果',
+          link: '/circle-arrow-nav'
         }
       ]
     }

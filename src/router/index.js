@@ -111,6 +111,10 @@ export const router = createRouter({
     {
       path: '/cross-bar-glitch-text',
       component: () => import('@/view/effect/CrossBarGlitchText')
+    },
+    {
+      path: '/circle-arrow-nav',
+      component: () => import('@/view/effect/CircleArrowNav')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
