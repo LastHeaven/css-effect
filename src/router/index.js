@@ -123,6 +123,10 @@ export const router = createRouter({
     {
       path: '/menu-hover-image',
       component: () => import('@/view/effect/MenuHoverImage')
+    },
+    {
+      path: '/mawaru',
+      component: () => import('@/view/effect/Mawaru')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

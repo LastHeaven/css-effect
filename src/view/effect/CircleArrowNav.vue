@@ -29,26 +29,10 @@
 </template>
 
 <script>
-// 用于transition
-if ('registerProperty' in CSS) {
-  CSS.registerProperty({
-    name: '--pos',
-    syntax: '<integer>',
-    initialValue: '0',
-    inherits: true
-  })
-}
+
 export default {
   name: 'CircleArrowNav',
-  setup () {
-    // CSS.registerProperty({
-    //   name: '--color',
-    //   syntax: '<color>',
-    //   initialValue: 'transparent',
-    //   inherits: true
-    // })
-    //
-  }
+  setup () {}
 }
 </script>
 
@@ -92,7 +76,7 @@ export default {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: conic-gradient(var(--color) calc(var(--pos) * 1%), transparent 0);
+    background: conic-gradient(var(--color) var(--pos), transparent 0);
     border-radius: inherit;
     mask: radial-gradient(transparent var(--radius), grey calc(var(--radius) + 0.5px), black var(--radius));
   }
@@ -100,7 +84,7 @@ export default {
     transform: scaleX(-1);
   }
   .circle-arrow:hover {
-    --pos: 50;
+    --pos: 50%;
   }
   .circle-arrow.left {
     transform: rotate(-90deg);

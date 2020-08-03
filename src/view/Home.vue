@@ -122,6 +122,10 @@ export default {
         {
           title: '28、跟踪鼠标的位置',
           link: '/menu-hover-image'
+        },
+        {
+          title: '29、让渐变动起来',
+          link: '/mawaru'
         }
       ]
     }
