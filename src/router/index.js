@@ -115,6 +115,10 @@ export const router = createRouter({
     {
       path: '/circle-arrow-nav',
       component: () => import('@/view/effect/CircleArrowNav')
+    },
+    {
+      path: '/card-flip-reflection',
+      component: () => import('@/view/effect/CardFlipReflection')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

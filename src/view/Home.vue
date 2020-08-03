@@ -114,6 +114,10 @@ export default {
         {
           title: '26、镂空效果',
           link: '/circle-arrow-nav'
+        },
+        {
+          title: '27、-webkit-box-reflect',
+          link: '/card-flip-reflection'
         }
       ]
     }
