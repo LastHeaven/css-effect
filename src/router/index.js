@@ -119,6 +119,10 @@ export const router = createRouter({
     {
       path: '/card-flip-reflection',
       component: () => import('@/view/effect/CardFlipReflection')
+    },
+    {
+      path: '/menu-hover-image',
+      component: () => import('@/view/effect/MenuHoverImage')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

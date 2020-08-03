@@ -118,6 +118,10 @@ export default {
         {
           title: '27、-webkit-box-reflect',
           link: '/card-flip-reflection'
+        },
+        {
+          title: '28、跟踪鼠标的位置',
+          link: '/menu-hover-image'
         }
       ]
     }
