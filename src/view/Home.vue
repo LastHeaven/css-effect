@@ -155,6 +155,10 @@ export default {
         {
           title: '36、流星雨',
           link: '/shooting-star'
+        },
+        {
+          title: '37、Ken Burns Effect',
+          link: '/ken-burns-effect'
         }
       ]
     }

@@ -155,6 +155,10 @@ export const router = createRouter({
     {
       path: '/shooting-star',
       component: () => import('@/view/effect/ShootingStar')
+    },
+    {
+      path: '/ken-burns-effect',
+      component: () => import('@/view/effect/KenBurnsEffect')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
