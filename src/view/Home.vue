@@ -143,6 +143,10 @@ export default {
         {
           title: '33、Toggle',
           link: '/toggle'
+        },
+        {
+          title: '34、Transparent Material Login Form',
+          link: '/transparent-material-login-form'
         }
       ]
     }

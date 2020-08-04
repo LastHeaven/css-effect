@@ -143,6 +143,10 @@ export const router = createRouter({
     {
       path: '/toggle',
       component: () => import('@/view/effect/Toggle')
+    },
+    {
+      path: '/transparent-material-login-form',
+      component: () => import('@/view/effect/TransparentMaterialLoginForm')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
