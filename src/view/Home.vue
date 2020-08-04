@@ -134,6 +134,10 @@ export default {
         {
           title: '31、Shining Text',
           link: '/shining-text'
+        },
+        {
+          title: '32、Menu Hover Underline',
+          link: '/menu-hover-underline'
         }
       ]
     }

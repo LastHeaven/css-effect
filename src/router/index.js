@@ -135,6 +135,10 @@ export const router = createRouter({
     {
       path: '/shining-text',
       component: () => import('@/view/effect/ShiningText')
+    },
+    {
+      path: '/menu-hover-underline',
+      component: () => import('@/view/effect/MenuHoverUnderline')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
