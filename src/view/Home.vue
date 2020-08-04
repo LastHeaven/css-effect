@@ -130,6 +130,10 @@ export default {
         {
           title: '30、慎重勇者风格的菜单',
           link: '/shinchou-menu'
+        },
+        {
+          title: '31、Shining Text',
+          link: '/shining-text'
         }
       ]
     }

@@ -131,6 +131,10 @@ export const router = createRouter({
     {
       path: '/shinchou-menu',
       component: () => import('@/view/effect/ShinchouMenu')
+    },
+    {
+      path: '/shining-text',
+      component: () => import('@/view/effect/ShiningText')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
