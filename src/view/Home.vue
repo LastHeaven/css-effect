@@ -167,6 +167,10 @@ export default {
         {
           title: '39、Bar Loading',
           link: '/bar-loading'
+        },
+        {
+          title: '40、Flex Frosted Image Gallery',
+          link: '/flex-frosted-image-gallery'
         }
       ]
     }

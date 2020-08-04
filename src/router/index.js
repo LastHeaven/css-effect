@@ -167,6 +167,10 @@ export const router = createRouter({
     {
       path: '/bar-loading',
       component: () => import('@/view/effect/BarLoading')
+    },
+    {
+      path: '/flex-frosted-image-gallery',
+      component: () => import('@/view/effect/FlexFrostedImageGallery')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

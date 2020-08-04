@@ -16,14 +16,14 @@ export default {
       ['bottom', 'top', 'scaleY(1)'],
       ['left', 'right', 'scaleX(1)'],
       ['top', 'bottom', 'scaleY(1)'],
-      ['right', 'left', 'scaleX(1)'],
+      ['right', 'left', 'scaleX(1)']
     ]
     for (let i = 0; i < 4; i++) {
       const style = styles[i]
       list.push({
         '--start': style[0],
         '--end': style[1],
-        '--transform': style[2],
+        '--transform': style[2]
       })
     }
 
