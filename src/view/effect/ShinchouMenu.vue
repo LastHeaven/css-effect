@@ -42,7 +42,7 @@ export default {
     position: relative;
     display: inline-flex;
     padding: 6px 2px 6px 2px;
-    color: black;
+    color: var(--highlight-text-color);
     font-size: 1.6em;
     font-weight: 700;
     line-height: 1;
@@ -68,6 +68,11 @@ export default {
     margin: 0 5px 0 4px;
     transition: 0.3s;
   }
+
+  .shinchou-menu li >>> a span.highlight {
+    color: black;
+  }
+
   .shinchou-menu li >>> a span.highlight::before {
     position: absolute;
     content: "";
@@ -77,8 +82,5 @@ export default {
     right: -3px;
     z-index: -1;
     background: var(--highlight-text-color);
-  }
-  .shinchou-menu li >>> a span:not(.highlight) {
-    color: var(--highlight-text-color);
   }
 </style>
