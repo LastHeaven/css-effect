@@ -163,6 +163,10 @@ export default {
         {
           title: '38、Spiral Loading',
           link: '/spiral-loading'
+        },
+        {
+          title: '39、Bar Loading',
+          link: '/bar-loading'
         }
       ]
     }

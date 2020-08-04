@@ -163,6 +163,10 @@ export const router = createRouter({
     {
       path: '/spiral-loading',
       component: () => import('@/view/effect/SpiralLoading')
+    },
+    {
+      path: '/bar-loading',
+      component: () => import('@/view/effect/BarLoading')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
