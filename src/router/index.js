@@ -147,6 +147,10 @@ export const router = createRouter({
     {
       path: '/transparent-material-login-form',
       component: () => import('@/view/effect/TransparentMaterialLoginForm')
+    },
+    {
+      path: '/spiral-stair-loader',
+      component: () => import('@/view/effect/SpiralStairLoader')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

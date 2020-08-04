@@ -147,6 +147,10 @@ export default {
         {
           title: '34、Transparent Material Login Form',
           link: '/transparent-material-login-form'
+        },
+        {
+          title: '34、Spiral Stair Loader',
+          link: '/spiral-stair-loader'
         }
       ]
     }
