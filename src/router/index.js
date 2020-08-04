@@ -159,6 +159,10 @@ export const router = createRouter({
     {
       path: '/ken-burns-effect',
       component: () => import('@/view/effect/KenBurnsEffect')
+    },
+    {
+      path: '/spiral-loading',
+      component: () => import('@/view/effect/SpiralLoading')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

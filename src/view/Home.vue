@@ -159,6 +159,10 @@ export default {
         {
           title: '37、Ken Burns Effect',
           link: '/ken-burns-effect'
+        },
+        {
+          title: '38、Spiral Loading',
+          link: '/spiral-loading'
         }
       ]
     }
