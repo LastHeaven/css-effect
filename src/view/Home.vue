@@ -151,6 +151,10 @@ export default {
         {
           title: '35、Spiral Stair Loader',
           link: '/spiral-stair-loader'
+        },
+        {
+          title: '36、流星雨',
+          link: '/shooting-star'
         }
       ]
     }

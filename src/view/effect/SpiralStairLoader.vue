@@ -21,7 +21,7 @@ export default {
       list.push({
         '--ratio': ratio,
         '--z-ratio1': zOffset * ratio + 1.6 * idx + 'px',
-        '--z-ratio2': zOffset * ratio + 12 * idx - 7200 + 'px',
+        '--z-ratio2': zOffset * ratio + 12 * idx - 7200 + 'px'
       })
     }
     return {

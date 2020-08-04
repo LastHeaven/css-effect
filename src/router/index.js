@@ -151,6 +151,10 @@ export const router = createRouter({
     {
       path: '/spiral-stair-loader',
       component: () => import('@/view/effect/SpiralStairLoader')
+    },
+    {
+      path: '/shooting-star',
+      component: () => import('@/view/effect/ShootingStar')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {
