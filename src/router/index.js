@@ -139,6 +139,10 @@ export const router = createRouter({
     {
       path: '/menu-hover-underline',
       component: () => import('@/view/effect/MenuHoverUnderline')
+    },
+    {
+      path: '/toggle',
+      component: () => import('@/view/effect/Toggle')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

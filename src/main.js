@@ -1,3 +1,4 @@
+import '@/assets/css/base.css'
 import '@/assets/css/reset.css'
 import 'core-js/stable'
 import 'regenerator-runtime/runtime'

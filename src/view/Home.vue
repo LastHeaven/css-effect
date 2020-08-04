@@ -3,6 +3,7 @@
     <div v-for="(item, idx) in pages" :key="idx">
       <router-link :to="item.link">{{item.title}}</router-link>
     </div>
+    <div class="padding">转载自<a href="https://codepen.io/alphardex" target="_blank">https://codepen.io/alphardex</a></div>
   </div>
 </template>
 
@@ -138,6 +139,10 @@ export default {
         {
           title: '32、Menu Hover Underline',
           link: '/menu-hover-underline'
+        },
+        {
+          title: '33、Toggle',
+          link: '/toggle'
         }
       ]
     }
@@ -145,4 +150,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+  .padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+</style>
