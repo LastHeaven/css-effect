@@ -127,6 +127,10 @@ export const router = createRouter({
     {
       path: '/mawaru',
       component: () => import('@/view/effect/Mawaru')
+    },
+    {
+      path: '/shinchou-menu',
+      component: () => import('@/view/effect/ShinchouMenu')
     }
   ],
   async scrollBehavior (to, from, savedPosition) {

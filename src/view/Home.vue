@@ -126,6 +126,10 @@ export default {
         {
           title: '29、让渐变动起来',
           link: '/mawaru'
+        },
+        {
+          title: '30、慎重勇者风格的菜单',
+          link: '/shinchou-menu'
         }
       ]
     }
