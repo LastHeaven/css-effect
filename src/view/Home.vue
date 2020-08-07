@@ -187,6 +187,10 @@ export default {
         {
           title: '44、Clock Loader',
           link: '/clock-loader'
+        },
+        {
+          title: '45、Diamond Grid',
+          link: '/diamond-grid'
         }
       ]
     }
