@@ -183,6 +183,10 @@ export default {
         {
           title: '43、Star Burst',
           link: '/star-burst'
+        },
+        {
+          title: '44、Clock Loader',
+          link: '/clock-loader'
         }
       ]
     }
