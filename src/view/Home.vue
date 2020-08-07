@@ -175,6 +175,10 @@ export default {
         {
           title: '41、3d loader',
           link: '/3d-loader'
+        },
+        {
+          title: '42、Mask Loader',
+          link: '/mask-loader'
         }
       ]
     }
