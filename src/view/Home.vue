@@ -171,6 +171,10 @@ export default {
         {
           title: '40、Flex Frosted Image Gallery',
           link: '/flex-frosted-image-gallery'
+        },
+        {
+          title: '41、3d loader',
+          link: '/3d-loader'
         }
       ]
     }
