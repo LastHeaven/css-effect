@@ -179,6 +179,10 @@ export default {
         {
           title: '42、Mask Loader',
           link: '/mask-loader'
+        },
+        {
+          title: '43、Star Burst',
+          link: '/star-burst'
         }
       ]
     }
