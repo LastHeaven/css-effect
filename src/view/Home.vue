@@ -191,6 +191,10 @@ export default {
         {
           title: '45、Diamond Grid',
           link: '/diamond-grid'
+        },
+        {
+          title: '46、Menu Hover Slide Fill',
+          link: '/menu-hover-slide-fill'
         }
       ]
     }
