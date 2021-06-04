@@ -195,6 +195,10 @@ export default {
         {
           title: '46、Menu Hover Slide Fill',
           link: '/menu-hover-slide-fill'
+        },
+        {
+          title: '47、骨架屏',
+          link: '/skeleton-screen'
         }
       ]
     }
